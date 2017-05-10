@@ -2,6 +2,7 @@ var path = require('path')
 var utils = require('./utils')
 var config = require('../config')
 var vueLoaderConfig = require('./vue-loader.conf')
+var WebpackNotifierPlugin = require('webpack-notifier')
 
 function resolve (dir) {
 	return path.join(__dirname, '..', dir)
@@ -67,5 +68,8 @@ module.exports = {
 				name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
 			}
 		}]
-	}
+	},
+	plugins: [
+		new WebpackNotifierPlugin({ alwaysNotify: true })
+	]
 }
