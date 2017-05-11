@@ -12,6 +12,11 @@ const router = new Router({
 		path: '/',
 		name: 'Hello',
 		component: require('../component/route/Hello')
+	},
+	{
+		path: '/about',
+		name: 'About',
+		component: require('../component/route/About')
 	}]
 })
 
