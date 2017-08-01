@@ -2,7 +2,7 @@
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
-Starting point for NoProtocol front-end applications. A fork of the excellent [webpack template](https://github.com/vuejs-templates/webpack) and tuned to our preferences.
+Starting point for Sylo front-end applications. A fork of the excellent [webpack template](https://github.com/vuejs-templates/webpack) and tuned to our preferences.
 
 ## Usage
 
@@ -10,7 +10,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init hariantoatwork/sylo-vue my-project
+$ vue init hariantoatwork/sylo-vue-spa my-project
 $ cd my-project
 $ npm install
 $ npm run dev
