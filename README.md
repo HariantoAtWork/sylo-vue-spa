@@ -1,6 +1,6 @@
 # Sylo-Vue-SPA
 
-> Vue 2 - A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
+> Vue-Cli 2 / Vue 2 - A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
 Starting point for Sylo front-end applications. A fork of the excellent [webpack template](https://github.com/vuejs-templates/webpack) and tuned to our preferences.
 
