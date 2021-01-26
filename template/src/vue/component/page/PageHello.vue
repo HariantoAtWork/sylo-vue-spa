@@ -1,16 +1,16 @@
 <template>
-	<div class="page-about">
-		<h1>\{{ msg }}</h1>
-		<h2>About</h2>
+	<div class="hello">
+		<h1>{{ msg }}</h1>
+		<h2>Go create something awesome.</h2>
 	</div>
 </template>
 
 <script>
 export default {
-	name: 'about',
+	name: 'hello',
 	data () {
 		return {
-			msg: 'Sylo Vue :)'
+			msg: 'Hello world :)'
 		}
 	}
 }

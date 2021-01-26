@@ -1,8 +1,9 @@
-.DS_Store
-node_modules/
-# public/ // TODO: Only ignore assets and index.html?
-npm-debug.log
-yarn-error.log
 test/unit/coverage
 test/e2e/reports
+node_modules/
+public/
+.DS_Store
+npm-debug.log
+yarn-error.log
 selenium-debug.log
+package-lock.json
