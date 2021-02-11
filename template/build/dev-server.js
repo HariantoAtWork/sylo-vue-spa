@@ -6,7 +6,7 @@ if (!process.env.NODE_ENV) {
 }
 
 const chalk = require('chalk')
-var opn = require('opn')
+var open = require('open')
 var path = require('path')
 var express = require('express')
 var webpack = require('webpack')
@@ -85,6 +85,6 @@ module.exports = app.listen(port, function (err) {
 
 	// when env is testing, don't need open it
 	if (autoOpenBrowser && process.env.NODE_ENV !== 'testing') {
-		opn(uri)
+		open(uri)
 	}
 })
