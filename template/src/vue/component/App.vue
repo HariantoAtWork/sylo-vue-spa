@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
 		<header class="layout u-absolute">
-			<ul class="u-box menu">
+			<ul class="u-flex menu">
 				<li><router-link to="/">Home</router-link></li>
 				<li><router-link to="/about">About</router-link></li>
 			</ul>
